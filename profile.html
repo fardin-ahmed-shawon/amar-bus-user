@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMAR BUS</title>
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/profile.css">
+</head>
+<body>
+
+<!-- START NAV AREA -->
+<nav>
+    <div class="nav-area">
+        <div class="logo">
+            <img src="img/logo.png" alt="LOGO">
+        </div>
+        <div class="list">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="busInfo.html">Bus Information</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="profile">
+            <img onclick="profile_open()" src="img/profile.png" alt="#">
+        </div>
+        <div class="mobile-menu-btn">
+            <i onclick="profile_open()" class="fas fa-bars"></i>
+        </div>
+    </div>
+</nav>
+<!-- END NAV AREA -->
+
+<!-- Start Sidebar -->
+<div class="sidebar" id="sidebar">
+    <div class="close-btn">
+        <i onclick="profile_close()" class="fa-sharp fa-solid fa-xmark"></i>
+    </div>
+    <img src="img/profile.png" alt="#">
+    <br><br>
+    <!-- Contents -->
+    <div class="contents">
+        <h2>Fardin Ahmed Shawon</h2>
+        <p>
+            <i class="fa-solid fa-envelope"></i> mdshawon7443@gmail.com
+        </p>
+        <p>
+            <i class="fa-solid fa-mobile-screen-button"></i> 01944667441
+        </p>
+        <p>
+            <i class="fa-sharp fa-solid fa-id-card"></i> 2367235479889
+        </p>
+
+        <br><hr><br>
+
+        <a href="profile.html">
+            <button>Profile</button>
+        </a>
+
+        <div class="pages-mobile">
+            <a href="home.html">
+                <button>Home</button>
+            </a>
+            <a href="login.html">
+                <button>Login</button>
+            </a>
+            <a href="register.html">
+                <button>Register</button>
+            </a>
+            <a href="busInfo.html">
+                <button>Bus Information</button>
+            </a>
+            <a href="contact.html">
+                <button>Contact Us</button>
+            </a>
+        </div>
+
+        <a href="purchaseHistory.html">
+            <button>Purchase History</button>
+        </a>
+        <a href="updatePass.html">
+            <button>Update Password</button>
+        </a>
+        <a href="login.html">
+            <button>Logout</button>
+        </a>
+    </div>
+
+    <!-- 2 -->
+    <div class="contents-2">
+        <h2>You are not logged in!</h2>
+
+        <br><hr><br>
+
+        <div class="pages-mobile">
+            <a href="home.html">
+                <button>Home</button>
+            </a>
+            <a href="busInfo.html">
+                <button>Bus Information</button>
+            </a>
+            <a href="contact.html">
+                <button>Contact Us</button>
+            </a>
+        </div>
+        <a href="login.html">
+            <button>Login</button>
+        </a>
+        <a href="register.html">
+            <button>Register</button>
+        </a>
+
+    </div>
+
+</div>
+<!-- End Sidebar -->
+
+<!-- Student Information -->
+<section>
+    <div class="card" style="overflow-x: auto;">
+        <h1>Profile</h1>
+        <div style="overflow-x: auto;">
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td>Name</td>
+                        <td>:</td>
+                        <td>Fardin Ahmed Shawon</td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>:</td>
+                        <td>fardinahmed7443@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mobile Number</td>
+                        <td>:</td>
+                        <td>01944667441</td>
+                    </tr>
+                    <tr>
+                        <td>NID No.</td>
+                        <td>:</td>
+                        <td>27846317462</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <div>
+            <a href="editUserInfo.html">
+                <button class="btn">Edit Information</button>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<script src="main.js"></script>
+
+</body>
+</html>
